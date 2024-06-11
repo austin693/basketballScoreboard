@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="score-el1">0</h2>
+                <button onclick="team1plus1()">+1</button>
+                <button onclick="team1plus2()">+2</button>
+                <button onclick="team1plus3()">+3</button>
+                </div>
+            
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="score-el2">0</h2>
+                <!-- <div class="scoreboardAway" class="homeScore"></div> -->
+                <button onclick="team2plus1()">+1</button>
+                <button onclick="team2plus2()">+2</button>
+                <button onclick="team2plus3()">+3</button>
+            </div>
+        </div>
+        <button class="resetGame" onclick="newGame()">New Game</button>
+        <div id="period-el" class="container2" onclick="nextPeriod()">Period: </div>
+        <script src="index.js"></script>
+    </body>
+</html>
